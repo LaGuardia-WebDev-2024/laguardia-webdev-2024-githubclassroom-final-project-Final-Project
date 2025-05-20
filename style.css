@@ -8,7 +8,7 @@ body {
 /* ⬆⬆⬆⬆ Nav Bar Styling 
 ~~~~~ Taken From: 
 https://www.w3schools.com/css/css_navbar_horizontal.asp */
-ul {
+ul.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -20,11 +20,11 @@ ul {
   z-index: 999;
 }
 
-li {
+ul.nav li {
   float: left;
 }
 
-li a {
+ul.nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -32,11 +32,11 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+ul.nav li a:hover:not(.active) {
   background-color: yellow;
 }
 
-.active {
+ul.nav .active {
   background-color: red;
 }
 
