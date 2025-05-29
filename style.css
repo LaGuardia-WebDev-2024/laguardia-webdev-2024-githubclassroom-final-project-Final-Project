@@ -4,6 +4,12 @@ body {
   padding-top: 30px;
   margin-left: 0px;
   margin-right: 0px;
+  background-image:url("https://img.freepik.com/premium-vector/unicorn-background-with-rainbow-mesh_121461-546.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
 }
 /* ⬆⬆⬆⬆ Nav Bar Styling 
 ~~~~~ Taken From: 
@@ -13,7 +19,7 @@ ul.nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-image: url("https://www.freevector.com/uploads/vector/preview/19200/6-06.jpg");
   position: fixed;
   top: 0;
   width: 100%;
@@ -26,20 +32,27 @@ ul.nav li {
 
 ul.nav li a {
   display: block;
-  color: white;
+  color: #ead6ff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 ul.nav li a:hover:not(.active) {
-  background-color: yellow;
+  background-color: #e681e6;
 }
 
 ul.nav .active {
-  background-color: red;
+  background-color: #ed80df;
 }
 
 h1 {
   width: 100%;
+  color:#24d3e0;
+  background-color:#e9d9fb;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align:center;
 }
