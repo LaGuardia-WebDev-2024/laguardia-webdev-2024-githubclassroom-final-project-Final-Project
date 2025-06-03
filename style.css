@@ -26,18 +26,18 @@ ul.nav li {
 
 ul.nav li a {
   display: block;
-  color: white;
+  color: pink;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 ul.nav li a:hover:not(.active) {
-  background-color: yellow;
+  background-color: purple;
 }
 
 ul.nav .active {
-  background-color: red;
+  background-color: purple;
 }
 
 h1 {
